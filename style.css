@@ -1,0 +1,31 @@
+html {
+  background-color: rgb(224, 236, 239);
+}
+
+.testo {
+  color: black;
+  background-color: lightblue;
+  border: 2px solid rgb(48, 106, 212);
+  border-radius: 10px;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: fit-content;
+}
+
+.titolo {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.link:hover {
+  color: rgb(48, 106, 212);
+  background-color: lightblue;
+}
+
+.link2 {
+  display: flex;
+}
+
+.link2:hover {
+  border: 2px solid blue;
+}
