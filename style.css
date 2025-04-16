@@ -1,0 +1,33 @@
+.navbar {
+  background-color: black;
+}
+
+/* Di seguito le classi nella nav */
+
+.logo {
+  text-decoration: none;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+  width: fit-content;
+
+  padding: 0.5rem;
+}
+
+.logo:hover {
+  background-color: rgba(50, 50, 6602, 0.5);
+}
+
+.logo-img {
+  height: 2.5rem;
+}
+
+.logo-txt {
+  color: white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+}
+
+/*  */
