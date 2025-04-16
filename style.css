@@ -1,5 +1,9 @@
 .navbar {
   background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /* Di seguito le classi nella nav */
@@ -16,18 +20,20 @@
   padding: 0.5rem;
 }
 
-.logo:hover {
-  background-color: rgba(50, 50, 6602, 0.5);
-}
-
 .logo-img {
   height: 2.5rem;
 }
 
-.logo-txt {
+.nav-link {
   color: white;
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 1rem;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  background-color: rgba(50, 50, 6602, 0.5);
 }
 
 /*  */
