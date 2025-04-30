@@ -1,9 +1,26 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+
+  font-family: Helvetica, Arial, sans-serif;
+}
+
 .navbar {
   background-color: black;
+
+  position: sticky;
+  top: 0;
+}
+
+.navbar-content {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+  align-items: stretch;
+  padding: 0 0.5rem;
+
+  max-width: 1280px;
+  margin: 0 auto;
 }
 
 /* Di seguito le classi nella nav */
@@ -25,15 +42,41 @@
 }
 
 .nav-link {
+  display: flex;
+  align-items: center;
   color: white;
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   padding: 0.5rem;
   text-decoration: none;
+  margin: 0;
+}
+
+.nav-dx {
+  display: flex;
+  align-items: stretch;
 }
 
 .nav-link:hover {
   background-color: rgba(50, 50, 6602, 0.5);
 }
 
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem;
+
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.hero-image {
+  width: 30rem;
+  object-fit: cover;
+}
+
+.hero-content {
+}
 /*  */
